@@ -4,9 +4,7 @@ public class BinarySearch {
         int[] nums1 = {100,65,55,46,38,21,03,0};
         int[] nums2 = {2,4,6,9,14,16,18};
         int n = 14;
-        System.out.println("The index of the target element is : " + binarySearch(nums2,n));
-        
-        
+        System.out.println("The index of the target element is : " + binarySearch(nums2,n));     
     }
 
     // Assuming that the array is sorted in the ascending order
@@ -68,9 +66,7 @@ public class BinarySearch {
                 } else if ( target > arr[mid] ) {
                     end = mid-1;
                 }
-
             }
-
         }
         return -1;
     }
