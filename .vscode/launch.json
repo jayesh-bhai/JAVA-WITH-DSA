@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "KidsWithGreatestNoOfCandies",
+            "request": "launch",
+            "mainClass": "KidsWithGreatestNoOfCandies",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "SelectionSort",
+            "request": "launch",
+            "mainClass": "SelectionSort",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
             "name": "Shuffle",
             "request": "launch",
             "mainClass": "Shuffle",
