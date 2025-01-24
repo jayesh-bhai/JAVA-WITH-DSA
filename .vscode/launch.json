@@ -1,0 +1,175 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Shuffle",
+            "request": "launch",
+            "mainClass": "Shuffle",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "Attach",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": "<debug port of the debuggee>"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Arrayss",
+            "request": "launch",
+            "mainClass": "Arrayss",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearch",
+            "request": "launch",
+            "mainClass": "BinarySearch",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "BuildArray",
+            "request": "launch",
+            "mainClass": "BuildArray",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "CeilingProblem",
+            "request": "launch",
+            "mainClass": "CeilingProblem",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "Concatenation",
+            "request": "launch",
+            "mainClass": "Concatenation",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "EvenNumberofDigits",
+            "request": "launch",
+            "mainClass": "EvenNumberofDigits",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "FindInMountainArray",
+            "request": "launch",
+            "mainClass": "FindInMountainArray",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "FindPivotElement",
+            "request": "launch",
+            "mainClass": "FindPivotElement",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "FirstandLAstIndex",
+            "request": "launch",
+            "mainClass": "FirstandLAstIndex",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "FloorProblem",
+            "request": "launch",
+            "mainClass": "FloorProblem",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "InfiniteArray",
+            "request": "launch",
+            "mainClass": "InfiniteArray",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "PeakIndexMountain",
+            "request": "launch",
+            "mainClass": "PeakIndexMountain",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "RBS",
+            "request": "launch",
+            "mainClass": "RBS",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "RichestCustomerWealth",
+            "request": "launch",
+            "mainClass": "RichestCustomerWealth",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "RowColMatrix",
+            "request": "launch",
+            "mainClass": "RowColMatrix",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "Search_in_2D",
+            "request": "launch",
+            "mainClass": "Search_in_2D",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "SecondLargestSmallest",
+            "request": "launch",
+            "mainClass": "SecondLargestSmallest",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "SmallestLetter",
+            "request": "launch",
+            "mainClass": "SmallestLetter",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "Solution",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "SplitString",
+            "request": "launch",
+            "mainClass": "SplitString",
+            "projectName": "JAVA with DSA_59f26641"
+        }
+    ]
+}
