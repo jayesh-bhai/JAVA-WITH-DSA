@@ -1,7 +1,6 @@
 
 public class BinarySearch {
     public static void main(String[] args) {
-        int[] nums1 = {100,65,55,46,38,21,03,0};
         int[] nums2 = {2,4,6,9,14,16,18};
         int n = 14;
         System.out.println("The index of the target element is : " + binarySearch(nums2,n));     
