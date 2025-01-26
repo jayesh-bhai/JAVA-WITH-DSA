@@ -1,4 +1,5 @@
-class Solution {
+public class GoodPairs {
+
     public static void main (String[] args) {
 
         int[] arr = {1,2,3,1,1,3};
@@ -18,4 +19,5 @@ class Solution {
         return count;
         
     }
+    
 }

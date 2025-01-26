@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "InsertionSort",
+            "request": "launch",
+            "mainClass": "InsertionSort",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
             "name": "KidsWithGreatestNoOfCandies",
             "request": "launch",
             "mainClass": "KidsWithGreatestNoOfCandies",
