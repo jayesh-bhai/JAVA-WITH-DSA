@@ -1,11 +1,11 @@
 import java.util.Arrays;
 public class BubbleSort {
     public static void main(String[] args) {
-        int[] nums = {5,3,4,2,1};
+        int[] arr = {8,1,2,2,3};
         int[] nums1 = {10,20,30,40,50};
-        bubbleSort(nums);
+        bubbleSort(arr);
         bubbleSort(nums1);
-        System.out.println(Arrays.toString(nums));
+        System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(nums1));
 
     }
@@ -17,7 +17,7 @@ public class BubbleSort {
 
             swapped = false;
 
-            for (int j = 0; j < arr.length - i - 1; i++) {
+            for (int j = 0; j < arr.length - i - 1; j++) {
 
                 if ( arr[j] > arr[j+1]) {
 

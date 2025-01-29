@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AllNumberDisappeared",
+            "request": "launch",
+            "mainClass": "AllNumberDisappeared",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "FindDublicates",
+            "request": "launch",
+            "mainClass": "FindDublicates",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "SmallerNumbers",
+            "request": "launch",
+            "mainClass": "SmallerNumbers",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
             "name": "CyclicSort",
             "request": "launch",
             "mainClass": "CyclicSort",
