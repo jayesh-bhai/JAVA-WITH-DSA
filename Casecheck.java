@@ -10,6 +10,7 @@ public class Casecheck {
         }else {
             System.out.println("Uppercase Character");
         }
+        sc.close();
     }
     
 }
