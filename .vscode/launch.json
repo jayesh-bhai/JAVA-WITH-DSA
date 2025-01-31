@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "prblm_41",
+            "request": "launch",
+            "mainClass": "prblm_41",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "prblm_645",
+            "request": "launch",
+            "mainClass": "prblm_645",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
             "name": "AllNumberDisappeared",
             "request": "launch",
             "mainClass": "AllNumberDisappeared",

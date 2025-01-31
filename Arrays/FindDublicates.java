@@ -1,4 +1,4 @@
-// Leetcode problem number 
+// Leetcode problem number 287
 import java.util.Arrays;
 public class FindDublicates {
     public static void main(String[] args) {
