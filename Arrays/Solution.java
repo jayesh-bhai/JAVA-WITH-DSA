@@ -1,59 +1,25 @@
-import java.util.Arrays;
-import java.util.ArrayList;
-import java.util.List;
-
 class Solution {
 
-    public static void main (String[] args) {
-
-        List<List<String>> items = new ArrayList<List<String>>();
-
-         items.add(Arrays.asList("phone","blue","pixel"));
-         items.add(Arrays.asList("computer","silver","lenovo"));
-         items.add(Arrays.asList("phone","gold","iphone"));
-
-        String ruleKey = "type";
-        String ruleValue = "phone";
-System.out.print("The number of list that matches the rule is " + countMatches(items,ruleKey,ruleValue));
+    public static void main(String[] args) {
+        int[] gain = {-5,1,5,0,-7};
+        System.out.println(largestAltitude(gain));
     }
-    public static int countMatches(List<List<String>> items, String ruleKey, String ruleValue) {
-        int count = 0;
+    public static int largestAltitude(int[] gain) {
 
-        if (ruleKey.equals("type")) {
-            count = 0;
+        int[] altitude = new int[gain.length+1];
+        altitude[0] = 0;
+        int max = altitude[0];
+        for (int i = 0; i < gain.length; i++) {
 
-            for (int i = 0; i < items.size(); i++) {
-               if (items.get(i).get(0).equals(ruleValue)) {
-                count++;
-                }
+            altitude[i+1] = altitude[i] + gain[i];
+
+            if ( altitude[i+1] > max ) {
+                max = altitude[i+1];
             }
-
-            return count;
-
-        } else if (ruleKey.equals("color")) {
-
-            count = 0;
-
-            for (int i = 0; i < items.get(i).size(); i++) {
-               if (items.get(i).get(1).equals(ruleValue)) {
-                count++;
-                }
-            }
-
-            return count;
-
-        } else {
-            count = 0;
-
-            for (int i = 0; i < items.get(i).size(); i++) {
-               if (items.get(i).get(2).equals(ruleValue)) {
-                count++;
-                }
-            }
-
-            return count;
 
         }
+
+        return max;
         
     }
 }

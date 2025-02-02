@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BinarySearchRecursion",
+            "request": "launch",
+            "mainClass": "BinarySearchRecursion",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "FibonacciSeriesRecursion",
+            "request": "launch",
+            "mainClass": "FibonacciSeriesRecursion",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
             "name": "Palindrome",
             "request": "launch",
             "mainClass": "Palindrome",
