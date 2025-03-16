@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "No_OfDigits",
+            "request": "launch",
+            "mainClass": "No_OfDigits",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
+            "name": "SingleNumber",
+            "request": "launch",
+            "mainClass": "SingleNumber",
+            "projectName": "JAVA with DSA_59f26641"
+        },
+        {
+            "type": "java",
             "name": "BinarySearchRecursion",
             "request": "launch",
             "mainClass": "BinarySearchRecursion",

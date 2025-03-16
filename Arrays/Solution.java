@@ -1,25 +1,43 @@
-class Solution {
+import java.util.List;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.math.BigInteger;
 
-    public static void main(String[] args) {
-        int[] gain = {-5,1,5,0,-7};
-        System.out.println(largestAltitude(gain));
+public class Solution {
+    public static void main (String[] args) {
+
+        int[] arr = {9,9,9,9,9,9,9,9,9,9,9,9,9,9};
+        int k = 34;
+        System.out.println(addToArrayForm(arr,k));
+      
     }
-    public static int largestAltitude(int[] gain) {
 
-        int[] altitude = new int[gain.length+1];
-        altitude[0] = 0;
-        int max = altitude[0];
-        for (int i = 0; i < gain.length; i++) {
+    public static List<Integer> addToArrayForm(int[] num, int k) {
 
-            altitude[i+1] = altitude[i] + gain[i];
+        String str = "";
+        List<Integer> ans = new ArrayList<>();
 
-            if ( altitude[i+1] > max ) {
-                max = altitude[i+1];
-            }
+    for (int el : num) {
+        str += Integer.toString(el);
+    }
 
-        }
+    BigInteger new_val = new BigInteger(str);
+ 
+    BigInteger bigK = BigInteger.valueOf(k);
 
-        return max;
+    BigInteger bigSum = new_val.add(bigK);
+
+    while (!bigSum.equals(BigInteger.ZERO)) {
+        BigInteger[] divAndRem = bigSum.divideAndRemainder(BigInteger.TEN);
+        int digit = divAndRem[1].intValue(); // Remainder is the last digit
+        ans.add(digit);
+        bigSum = divAndRem[0]; // Update bigNumber to the quotient
+    }
+
+    Collections.reverse(ans);
+    return ans;
+
+
         
     }
 }
